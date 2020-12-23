@@ -1,4 +1,3 @@
-import logo from "../../logo.svg";
 import * as bs from 'react-bootstrap';
 import RightHeader from '../../component/RightHeader/RightHeader';
 

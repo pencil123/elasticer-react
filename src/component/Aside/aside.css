@@ -4,14 +4,32 @@
   max-width: 256px;
 }
 
+@media screen and (max-width: 768px) {
+  .Aside{
+    max-width: 80px ;
+  }
+  .Aside span{
+    display: none;
+  }
+}
+.Aside i{
+  font-size: 21px;
+  display: inline-block;
+  margin: 1px 15px 1px 3px;
+}
+
 .Aside > img{
   width: 80%;
   margin: 10px auto 30px;
 }
 
-.nav > a{
+.nav-link{
   font-weight: 500;
   font-size:20px;
   line-height: 30px;
+  color: white;
+}
+
+.Aside a:hover{
   color: white;
 }
