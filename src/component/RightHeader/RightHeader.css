@@ -1,0 +1,16 @@
+.rightHeader{
+  text-align: right;
+  height: 35px;
+  color: #005BAA;
+  border-bottom: 1px #005BAA solid;
+}
+
+.rightHeader > i{
+  line-height: 35px;
+  font-weight: bolder;
+}
+
+.rightHeader > span{
+  font-weight: bolder;
+  padding: 10px 15px;
+}

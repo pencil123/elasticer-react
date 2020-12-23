@@ -1,0 +1,17 @@
+.Aside{
+  background: #005BAA;
+  border: 1px black solid;
+  max-width: 256px;
+}
+
+.Aside > img{
+  width: 80%;
+  margin: 10px auto 30px;
+}
+
+.nav > a{
+  font-weight: 500;
+  font-size:20px;
+  line-height: 30px;
+  color: white;
+}
