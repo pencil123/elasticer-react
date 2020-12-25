@@ -11,10 +11,10 @@ function Aside() {
             <i className="icon iconfont icon-Home"></i>
             <span>首页</span>
           </bs.Nav.Link>
-          <bs.Nav.Link>
+          <bs.Nav className="nav-link">
             <i className="icon iconfont icon-ren-copy"></i>
             <span>项目管理</span>
-            <bs.Nav>
+            <bs.Nav.Link as='span'>
               <bs.Nav.Link eventKey="appShow">
                 <i className="icon iconfont icon-ren-copy"></i>
                 <span>现目展示</span>
@@ -23,8 +23,8 @@ function Aside() {
                 <i className="icon iconfont icon-ren-copy"></i>
                 <span>添加项目</span>
               </bs.Nav.Link>
-            </bs.Nav>
-          </bs.Nav.Link>
+            </bs.Nav.Link>
+          </bs.Nav>
           <bs.Nav.Link eventKey="statShow">
             <i className="icon iconfont icon-align_horizontal_left"></i>
             <span>数据查询</span></bs.Nav.Link>

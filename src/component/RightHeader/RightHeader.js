@@ -22,7 +22,6 @@ function RightHeader() {
             <bs.BreadcrumbItem>world</bs.BreadcrumbItem>
           </bs.Breadcrumb>
         </div>
-
       </bs.Container>
   );
 }
