@@ -12,22 +12,22 @@ function Aside() {
             <span>首页</span>
           </bs.Nav.Link>
           <bs.Nav className="nav-link">
-            <i className="icon iconfont icon-ren-copy"></i>
-            <span>项目管理</span>
+            <i className="icon iconfont icon-rizhi"></i>
+            <span>日志分析</span>
             <bs.Nav.Link as='span'>
               <bs.Nav.Link eventKey="appShow">
-                <i className="icon iconfont icon-ren-copy"></i>
-                <span>现目展示</span>
+                <i className="icon iconfont icon-align_horizontal_left"></i>
+                <span>分析展示</span>
               </bs.Nav.Link>
               <bs.Nav.Link eventKey="appAdd">
-                <i className="icon iconfont icon-ren-copy"></i>
-                <span>添加项目</span>
+                <i className="icon iconfont icon-xiangmu"></i>
+                <span>项目管理</span>
               </bs.Nav.Link>
             </bs.Nav.Link>
           </bs.Nav>
           <bs.Nav.Link eventKey="statShow">
-            <i className="icon iconfont icon-align_horizontal_left"></i>
-            <span>数据查询</span></bs.Nav.Link>
+            <i className="icon iconfont icon-jiankong"></i>
+            <span>报警中心</span></bs.Nav.Link>
         </bs.Nav>
       </bs.Col>
   );

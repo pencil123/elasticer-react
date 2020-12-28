@@ -37,5 +37,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://portal-metrics-paas.haier.net"
+  "proxy": "https://portal-metrics-paas.haier.net",
+  "devDependencies": {
+    "react-router-dom": "^5.2.0"
+  }
 }

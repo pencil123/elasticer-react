@@ -1,17 +1,20 @@
 import * as bs from 'react-bootstrap';
-import Aside from './component/Aside/aside';
-import Home from './pages/Home/home';
-import './App.css';
+import {BrowserRouter} from 'react-router-dom';
 
+import Aside from './component/Aside/aside';
+import LogStat from './pages/LogStat';
+import './App.css';
 
 function App() {
   return (
-      <bs.Container fluid className="content">
-        <bs.Row>
-          <Aside />
-          <Home />
-        </bs.Row>
-      </bs.Container>
+      <BrowserRouter>
+        <bs.Container fluid className="content">
+          <bs.Row>
+            <Aside/>
+            <LogStat/>
+          </bs.Row>
+        </bs.Container>
+      </BrowserRouter>
   );
 }
 
