@@ -1,7 +1,7 @@
 import * as bs from 'react-bootstrap';
 import {BrowserRouter} from 'react-router-dom';
 
-import Aside from './component/Aside/aside';
+import Aside from './component/Aside';
 import LogStat from './pages/LogStat';
 import './App.css';
 
